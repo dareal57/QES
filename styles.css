@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rubik+Maps&display=swap');
+
+body {
+    font-family: 'Merriweather', sans-serif;
+}
+
+input[type="submit"] {
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.8; /* this changes the opacity when you hover over the button */
+}
+#loadingBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, #f207fc, #44107a, #ff6363) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 1s;
+}
+body {
+  font-family: 'Merriweather', sans-serif;
+  /* Vice City color scheme gradient */
+  background: linear-gradient(45deg, #f207fc, #44107a, #ff6363);
+  height: 100vh;
+  margin: 0;
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+}
+
+@keyframes Gradient {
+  0% {background-position: 0% 50%}
+  50% {background-position: 100% 50%}
+  100% {background-position: 0% 50%}
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+input[type="number"]:focus {
+  border: 3px solid #555;
+}
+.result-text {
+  color: #ffffff; /* This is the text color */
+  background-color: #673FD7; /* This is the background color */
+  padding: 10px; /* This is the padding */
+  border-radius: 5px; /* This rounds the corners of the background */
+  /* Add any other styles you want here */
+}s
